@@ -12,6 +12,25 @@ entries:
     version: 0.2.0
   linux-audit-exporter:
   - apiVersion: v1
+    appVersion: 0.1.1
+    created: "2022-01-15T21:53:40.337336663Z"
+    description: linux-audit-exporter collects Linux audit metrics and exports in
+      Prometheus format.
+    digest: 92cd18473e5485a04c0e9c995aef6f346e861819094ac2f0260eaf5ffc71d82d
+    home: https://github.com/TeachersPayTeachers/linux-audit-exporter
+    keywords:
+    - linux
+    - audit
+    - prometheus
+    - odev2
+    - processor
+    name: linux-audit-exporter
+    sources:
+    - https://github.com/TeachersPayTeachers/linux-audit-exporter
+    urls:
+    - https://teacherspayteachers.github.io/helm-charts/linux-audit-exporter-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
     appVersion: 0.1.0
     created: "2021-07-17T14:02:08.818373244Z"
     description: linux-audit-exporter collects Linux audit metrics and exports in
@@ -30,4 +49,4 @@ entries:
     urls:
     - https://teacherspayteachers.github.io/helm-charts/linux-audit-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-27T05:32:40.808427101Z"
+generated: "2022-01-15T21:53:40.335800973Z"
