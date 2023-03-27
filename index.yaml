@@ -11,6 +11,25 @@ entries:
     - https://teacherspayteachers.github.io/helm-charts/ebpf-exporter-0.2.0.tgz
     version: 0.2.0
   linux-audit-exporter:
+  - apiVersion: v2
+    appVersion: 0.2.3
+    created: "2023-03-27T14:18:52.809100306Z"
+    description: linux-audit-exporter collects Linux audit metrics and exports in
+      Prometheus format.
+    digest: 1da42a0aef9f612deb7ad0f522c42b7f6d78e6ab3a2c8157a4b28ad5ad5fcc7f
+    home: https://github.com/TeachersPayTeachers/linux-audit-exporter
+    keywords:
+    - linux
+    - audit
+    - prometheus
+    - odev2
+    - processor
+    name: linux-audit-exporter
+    sources:
+    - https://github.com/TeachersPayTeachers/linux-audit-exporter
+    urls:
+    - https://teacherspayteachers.github.io/helm-charts/linux-audit-exporter-0.2.3.tgz
+    version: 0.2.3
   - apiVersion: v1
     appVersion: 0.2.2
     created: "2022-01-16T18:49:19.270183916Z"
@@ -106,4 +125,4 @@ entries:
     urls:
     - https://teacherspayteachers.github.io/helm-charts/linux-audit-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-16T18:49:19.269420827Z"
+generated: "2023-03-27T14:18:52.808422414Z"
