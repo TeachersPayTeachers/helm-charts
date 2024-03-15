@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   ebpf-exporter:
   - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2024-03-15T18:10:31.277441452Z"
+    description: A Helm chart for ebpf_exporter
+    digest: 78be0b28d2e10529e83fe2ca4c0c062a50a829a9e0a13fded57777f9c6558a18
+    name: ebpf-exporter
+    urls:
+    - https://teacherspayteachers.github.io/helm-charts/ebpf-exporter-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v1
     appVersion: 0.4.0
     created: "2024-03-14T21:29:58.065704484Z"
     description: A Helm chart for ebpf_exporter
@@ -152,4 +161,4 @@ entries:
     urls:
     - https://teacherspayteachers.github.io/helm-charts/linux-audit-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-14T21:29:58.064997702Z"
+generated: "2024-03-15T18:10:31.276765035Z"
